@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>weather</title>
+    <script src="jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet"  href="mystyle.css" />
+
+
+  </head>
+  <body>
+<div class="title">
+
+  <h1>Weather Forecast and Time Zones </h1>
+
+</div><br><br><br><br><br>
+<div class="intro" id="intro">
+  <p>
+    Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time. Human beings have attempted to predict the weather informally for millennia and formally since the 19th century.<br> Weather forecasts are made by collecting quantitative data about the current state of the atmosphere at given place and using scientific understanding of atmospheric processes to project how atmosphere will change.
+
+Once a human-only endeavor based mainly upon changes in barometric pressure, current weather conditions, and sky condition, weather forecasting now relies on computer-based models that take many atmospheric factors into account.<br> Human input is still required to pick the best possible forecast model to base the forecast upon, which involves pattern recognition skills, teleconnections, knowledge of model performance, and knowledge of model biases. The inaccuracy of forecasting is due to the chaotic nature of the atmosphere, the massive computational power required to solve the equations that describe the atmosphere, the error involved in measuring the initial conditions, and an incomplete understanding of atmospheric processes. Hence, forecasts become less accurate as the difference between current time and the time for which the forecast is being made (the range of the forecast) increases. The use of ensembles and model consensus help narrow the error and pick the most likely outcome.
+</p>
+</div>
+<div class="input1">
+  <form method="get" action="" id="formd">
+  <br><h2>Location </h2> <input type="text" id="location" class="input_boxes"></input><br><br>
+  <h2>Country </h2> <input type="text" id="country" class="input_boxes"></input><br><br><br>
+  <input type="submit" value="submit" class="submit"></input>
+  <input type="button" value="get time" class="timenow" id="timenow"></input>
+  <!--<input type="submit" value="get time" class="timenow" id="timenow"></input>-->
+</form>
+
+</div>
+<div class="time_display">
+<!--    <h1> Hour  :  Minutes  :   Seconds </h1>-->
+     <h1 id="hours" ></h1>
+     <h1 id="minutes"></h1>
+     <h1 id="seconds"></h1><br><br><br>
+</div>
+
+<div class="weather_display"  >
+  <!--  <h1> `c -  Country  -    Location</h1-->
+
+     <h1 id="temp"></h1>
+     <h1 id="country_name"></h1>
+     <h1 id="locs"></h1>
+     <h1 id="desc"></h1>
+     <h1 id="icon"></h1>
+</div>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
