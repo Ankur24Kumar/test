@@ -1,0 +1,52 @@
+.thumbnail {
+    position: relative;
+
+}
+
+.caption {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+
+}
+
+  a:hover {
+    color: black;
+    text-decoration: none;
+}
+.circled div{
+  background-color: #F18411;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+text-align: center;
+margin: 0 auto;
+padding-top: 15px;
+}
+.sp1{
+  padding-top:20px;
+  padding-left: 150px;
+
+}
+.fa{
+  background-color: #5ac499;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+text-align: center;
+margin: 0 auto;
+padding-top: 3px;
+}
+#nav_footer{
+  color: #fff;
+}
+.panel-title{
+  text-decoration: none;
+}
+.mapl{
+ text-decoration: none;
+}
+.iconc{
+  color:#F9F5F1;
+}
